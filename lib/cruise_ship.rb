@@ -8,4 +8,8 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.each do |key, value| #iterate over passengers 
+    if passengers[key][0...1] == "A"
+      passengers[key]
+    end
 end
