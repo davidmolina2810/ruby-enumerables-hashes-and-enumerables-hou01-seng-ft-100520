@@ -14,4 +14,5 @@ def select_winner(passengers)
       winner = passengers[room]
     end
   end
+  winner
 end
