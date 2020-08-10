@@ -11,7 +11,7 @@ def select_winner(passengers)
   winner = "" #create empty string to hold winner
   passengers.each do |room, person| #iterate over passengers
     if room == :suite_a && person[0...1] == "A"
-      winner = passengers[key]
+      winner = passengers[room]
     end
   end
 end
