@@ -13,4 +13,5 @@ def select_winner(passengers)
     if room == :suite_a && person[0...1] == "A"
       winner = passengers[key]
     end
+  end
 end
